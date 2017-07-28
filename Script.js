@@ -1,40 +1,48 @@
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("#startpage").fadeOut(1000);
+    });
+});
+
+
+
 var map = AmCharts.makeChart("chartdiv", {
   "type": "map",
   "dataProvider": {
     "map": "worldLow",
     "areas": [{
       "id": "US",
-      "modalUrl": "/homes/Desktop/Test/Home.html",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/USA.html",
       "selectable": true
     }, {
       "id": "FR",
-      "modalUrl": "/homes/Desktop/Test/Countries/France.html",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/France.html",
       "selectable": true
     }, {
       "id": "CN",
-      "modalUrl": "https://en.wikipedia.org/wiki/China",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/China.html",
       "selectable": true
     }, {
       "id": "RU",
-      "modalUrl": "https://en.wikipedia.org/wiki/France",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Russia.html",
       "selectable": true
     }, {
       "id": "IN",
-      "modalUrl": "https://en.wikipedia.org/wiki/France",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/India.html",
       "selectable": true
     }, {
       "id": "AU",
-      "modalUrl": "https://en.wikipedia.org/wiki/France",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Australia.html",
       "selectable": true
     }
     , {
       "id": "BR",
-      "modalUrl": "https://en.wikipedia.org/wiki/France",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Brazil.html",
       "selectable": true
     }
     , {
       "id": "DE",
-      "modalUrl": "https://en.wikipedia.org/wiki/France",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Germany.html",
       "selectable": true
     }
     , {
@@ -44,23 +52,43 @@ var map = AmCharts.makeChart("chartdiv", {
     }
     , {
       "id": "ZA",
-      "modalUrl": "https://en.wikipedia.org/wiki/France",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/SouthAfrica.html",
       "selectable": true
     }, {
       "id": "IT",
-      "modalUrl": "https://en.wikipedia.org/wiki/France",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Italy.html",
       "selectable": true
     }, {
       "id": "NG",
-      "modalUrl": "https://en.wikipedia.org/wiki/France",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Nigeria.html",
       "selectable": true
     }, {
       "id": "IE",
-      "modalUrl": "https://en.wikipedia.org/wiki/France",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Ireland.html",
       "selectable": true
     }, {
       "id": "TR",
-      "modalUrl": "https://en.wikipedia.org/wiki/France",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Turkey.html",
+      "selectable": true
+    }, {
+      "id": "SA",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/SaudiArabia.html",
+      "selectable": true
+    }, {
+      "id": "IQ",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Iraq.html",
+      "selectable": true
+    }, {
+      "id": "ET",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Ethiopia.html",
+      "selectable": true
+    }, {
+      "id": "CA",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Canada.html",
+      "selectable": true
+    }, {
+      "id": "ES",
+      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Spain.html",
       "selectable": true
     }]
   },
@@ -68,9 +96,9 @@ var map = AmCharts.makeChart("chartdiv", {
     "autoZoom" : true,
     "color" : "#85DBC4",
     "colorSolid" : "#84ADE9",
-    "selectedColor" : "#0B777C",
+    "selectedColor" : "#517A7C",
     "outlineColor" : "#FFF",
-    "rollOverColor" : "#0B777C",
+    "rollOverColor" : "#517A7C",
     "rollOverOutlineColor" : "#FFF"
   },
   "listeners": [{
