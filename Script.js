@@ -4,7 +4,6 @@ $(document).ready(function(){
     });
 });
 
-
 var map = AmCharts.makeChart("chartdiv", {
   "type": "map",
   "dataProvider": {
@@ -84,6 +83,30 @@ var map = AmCharts.makeChart("chartdiv", {
     }, {
       "id": "CA",
       "modalUrl": "Countries/Canada.html",
+      "selectable": true
+    }, {
+      "id": "CO",
+      "modalUrl": "Countries/Colombia.html",
+      "selectable": true
+    }, {
+      "id": "CU",
+      "modalUrl": "Countries/Cuba.html",
+      "selectable": true
+    }, {
+      "id": "EC",
+      "modalUrl": "Countries/Ecuador.html",
+      "selectable": true
+    }, {
+      "id": "DO",
+      "modalUrl": "Countries/DominicanRepublic.html",
+      "selectable": true
+    }, {
+      "id": "AR",
+      "modalUrl": "Countries/Argentina.html",
+      "selectable": true
+    }, {
+      "id": "VE",
+      "modalUrl": "Countries/Venezuela.html",
       "selectable": true
     }, {
       "id": "ES",
