@@ -5,90 +5,89 @@ $(document).ready(function(){
 });
 
 
-
 var map = AmCharts.makeChart("chartdiv", {
   "type": "map",
   "dataProvider": {
     "map": "worldLow",
     "areas": [{
       "id": "US",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/USA.html",
+      "modalUrl": "Countries/USA.html",
       "selectable": true
     }, {
       "id": "FR",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/France.html",
+      "modalUrl": "Countries/France.html",
       "selectable": true
     }, {
       "id": "CN",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/China.html",
+      "modalUrl": "Countries/China.html",
       "selectable": true
     }, {
       "id": "RU",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Russia.html",
+      "modalUrl": "Countries/Russia.html",
       "selectable": true
     }, {
       "id": "IN",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/India.html",
+      "modalUrl": "Countries/India.html",
       "selectable": true
     }, {
       "id": "AU",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Australia.html",
+      "modalUrl": "Countries/Australia.html",
       "selectable": true
     }
     , {
       "id": "BR",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Brazil.html",
+      "modalUrl": "Countries/Brazil.html",
       "selectable": true
     }
     , {
       "id": "DE",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Germany.html",
+      "modalUrl": "Countries/Germany.html",
       "selectable": true
     }
     , {
       "id": "SP",
-      "modalUrl": "https://en.wikipedia.org/wiki/France",
+      "modalUrl": "Countries/Spain.html",
       "selectable": true
     }
     , {
       "id": "ZA",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/SouthAfrica.html",
+      "modalUrl": "Countries/SouthAfrica.html",
       "selectable": true
     }, {
       "id": "IT",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Italy.html",
+      "modalUrl": "Countries/Italy.html",
       "selectable": true
     }, {
       "id": "NG",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Nigeria.html",
+      "modalUrl": "Countries/Nigeria.html",
       "selectable": true
     }, {
       "id": "IE",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Ireland.html",
+      "modalUrl": "Countries/Ireland.html",
       "selectable": true
     }, {
       "id": "TR",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Turkey.html",
+      "modalUrl": "Countries/Turkey.html",
       "selectable": true
     }, {
       "id": "SA",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/SaudiArabia.html",
+      "modalUrl": "Countries/SaudiArabia.html",
       "selectable": true
     }, {
       "id": "IQ",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Iraq.html",
+      "modalUrl": "Countries/Iraq.html",
       "selectable": true
     }, {
       "id": "ET",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Ethiopia.html",
+      "modalUrl": "Countries/Ethiopia.html",
       "selectable": true
     }, {
       "id": "CA",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Canada.html",
+      "modalUrl": "Countries/Canada.html",
       "selectable": true
     }, {
       "id": "ES",
-      "modalUrl": "/homes/Desktop/GWC-Final-Project/Countries/Spain.html",
+      "modalUrl": "Countries/Spain.html",
       "selectable": true
     }]
   },
