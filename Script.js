@@ -112,6 +112,10 @@ var map = AmCharts.makeChart("chartdiv", {
       "id": "ES",
       "modalUrl": "Countries/Spain.html",
       "selectable": true
+    }, {
+      "id": "HN",
+      "modalUrl": "Countries/Honduras.html",
+      "selectable": true
     }]
   },
   "areasSettings": {

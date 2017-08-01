@@ -2,7 +2,7 @@ body {
   font-size: 11pt;
   font-family: 'Roboto', sans-serif;
   color: #333;
-  background-image: url("/homes/Desktop/GWC-Final-Project/countries/topography.png");
+  background-image: url("topography.png");
 }
 .nav {
   width: 100%;
@@ -21,6 +21,8 @@ body {
   left: 0;
   right: 0;
   padding-top: 10%;
+  position: relative;
+  z-index: 10;
 }
 .nav:hover {
   background: #FCFEFF;
@@ -32,6 +34,11 @@ h2 {
   border-bottom: 3px solid #D17B66;
   padding: 10px;
 }
+h3 {
+  margin-left: 40px;
+  margin-top: 30px;
+  color: #333;
+}
 ul {
   margin: 35px;
   padding-left: 10px;
@@ -39,4 +46,17 @@ ul {
 }
 li {
   margin: 15px;
+}
+.return {
+float: right;
+right: 0;
+margin: 15px;
+background: #608493;
+padding: 10px;
+border-radius: 10px;
+color: #fff;
+text-decoration: none;
+font-size: 14pt;
+position: fixed;
+z-index: 7;
 }
