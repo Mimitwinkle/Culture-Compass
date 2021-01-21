@@ -1,4 +1,4 @@
-# GWC-Final-Project
+# Girls Who Code Final Project
 I created this project alongside my peers Anjou, Jaqueline, Katherine and Lauren as our final project during the Girls Who Code summer immersion program.
 
 # Culture Compass
